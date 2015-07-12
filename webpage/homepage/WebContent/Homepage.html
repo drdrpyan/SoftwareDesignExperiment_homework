@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset="UTF-8"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+ <script src="http://code.jquery.com/jquery-latest,js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<title>PNU APP Homepage</title>
+
+<style type="text/css">
+
+                #topMenu {
+                        height: 30px;
+                        width: 800px;
+                }
+
+                #topMenu ul li {
+                        list-style: none;
+                        color: white;
+                        background-color: #2d2d2d;
+                        float: left;
+                        line-height: 30px;
+                        vertical-align: middle;
+                        text-align: center;
+                }
+
+                #topMenu .menuLink {
+                        text-decoration:none;
+                        color: white;
+                        display: block;
+                        width: 153px;
+                        font-size: 12px;
+                        font-weight: bold;
+                        font-family: "Trebuchet MS";
+                }
+                #topMenu .menuLink:hover {
+                        color: red;
+                        background-color: #4d4d4d;
+                }
+
+
+*{ margin:0; padding:0;}
+ul,li{list-style:none;}
+
+body{ text-align:center; color:#FFF; background:#000;}
+#wapper{ text-align:left; width:800px; margin:0 auto;}
+
+header, footer, nav, aside, section, article {
+display:block; 
+}
+
+
+header, footer{
+width:100%;
+}
+aside{
+width:20%;
+float:left;
+}
+section {
+margin-bottom:10px;
+width:75%;
+float:left;
+}
+
+header, aside, section{
+margin-top:20px;
+}
+footer{
+margin-top:50px;
+}
+header, nav, aside, section, footer {
+background-color: #666;
+}
+
+article {
+width:90%;
+margin:20px;
+background-color: #999;
+}
+footer {
+clear:both;
+}
+
+</style>
+<script type="text/javascript">
+
+	function some0() {
+	section.location.href = "http://www.pusan.ac.kr/uPNU_common/common_boardPopup.asp?conf_no=3";
+ }	
+	function some1() {
+		section.location.href = "club.html";
+
+ }	
+	function some2() {
+		section.location.href = "map.html";
+
+ }	
+	function some3() {
+		section.location.href = "list.jsp"; 
+
+	 }	
+	function some4() {
+		section.location.href = "Appinformation.html"; 
+
+		 }	
+</script>
+
+
+</head>
+
+
+<body>
+<div id="wapper">
+<header>
+<h1 onclick="some4(); return false;" >PNU APP Homepage</h1>
+<p>학교 공지사항, 동아리 정보 등을 제공하고 있으며 앱으로도 확인 가능합니다.</p>
+</header>
+	<nav id="topMenu" >
+		<ul>
+			<li><a class="menuLink" id = "notify" href=""onclick="some0(); return false;">학교 공지사항</a></li>
+			<li>|</li>
+			<li><a class="menuLink" id = "club" href=""onclick="some1(); return false;">동아리</a></li>
+			<li>|</li>
+			<li><a class="menuLink" id ="map" href="" onclick="some2(); return false;">교내 지도</a></li>
+			<li>|</li>
+			<li><a class="menuLink" id ="information" href="" onclick="some3(); return false;">맛집/카페</a></li>
+			<li>|</li>
+			<li><a class="menuLink" id ="appinfor" href="" onclick="some4(); return false;">앱과 홈 관련 정보</a></li>
+		</ul>
+	</nav>
+
+
+
+<section> 
+
+
+<iframe  id = "section" height = "600" width = "800"> </iframe>
+
+</section>
+
+<footer>
+<a href= http://www.pusan.ac.kr target="_blank"><img src= "img/pnusite1.jpg" Height=50 width=192></a>
+<a href= https://onestop.pusan.ac.kr target="_blank"><img src= "img/pnusite2.jpg" Height=50 width=192></a>
+<a href= http://dorm.pusan.ac.kr/main target="_blank"><img src= "img/pnusite3.jpg" Height=50 width=192></a>
+<a href= http://www.pusan.ac.kr/uPNU_homepage/kr/sub/sub.asp?menu_no=10010602 target="_blank"><img src= "img/pnusite4.jpg" Height=50 width=192></a>
+</footer>
+</div>
+ </body>
+</html>

@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pnuapp.Homepage$PlaceholderFragment" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+        android:id="@+id/scrollView1"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="간호대학" />
+        
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="경영대학" />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="경제통상대학" />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="공과대학" />
+
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="나노과학기술대학" />
+
+    <Button
+        android:id="@+id/Button06"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="사범대학" />
+
+    <Button
+        android:id="@+id/Button07"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="사회과학대학" />
+
+    <Button
+        android:id="@+id/Button08"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="생명자원과학대학" />
+
+    <Button
+        android:id="@+id/Button09"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="생활환경대학" />
+
+    <Button
+        android:id="@+id/Button11"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="스포츠과학부" />
+
+    <Button
+        android:id="@+id/Button10"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="약학대학" />
+
+    <Button
+        android:id="@+id/Button12"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="예술대학" />
+
+    <Button
+        android:id="@+id/Button13"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="인문대학" />
+
+    <Button
+        android:id="@+id/Button14"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:text="자연과학대학" />
+
+	</LinearLayout>
+    </ScrollView>
+</LinearLayout>

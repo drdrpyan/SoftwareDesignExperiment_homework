@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pnuapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+       <activity
+            android:name="com.example.pnuapp.fragment1"/>
+       <activity
+            android:name="com.example.pnuapp.fragment2"/>
+        
+        <activity
+            android:name="com.example.pnuapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.pnuapp.Notice"/>
+         <activity
+            android:name="com.example.pnuapp.Homepage"/>
+         <activity
+            android:name="com.example.pnuapp.Pnucall"/>
+         <activity
+            android:name="com.example.pnuapp.Schedule"/>         
+
+         <activity
+            android:name="com.example.pnuapp.Toolbar"/>
+         <activity
+            android:name="com.example.pnuapp.Backend"/>
+         
+         <activity
+            android:name="com.example.pnuapp.Webview"/>
+         
+          <activity
+            android:name="com.example.pnuapp.NurseHome">
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+         </activity>
+         <activity
+            android:name="com.example.pnuapp.Nursecall"/>  
+         
+                  <activity
+            android:name="com.example.pnuapp.BusinessHome">
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+         </activity>                         
+         <activity
+            android:name="com.example.pnuapp.Businesscall"/>  
+            
+                     <activity
+            android:name="com.example.pnuapp.EconomyHome">
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+         </activity>
+         <activity
+            android:name="com.example.pnuapp.Economycall"/>  
+            
+                     <activity
+            android:name="com.example.pnuapp.EngineHome">
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+         </activity>
+         <activity
+            android:name="com.example.pnuapp.Enginecall"/>  
+            
+                     <activity
+            android:name="com.example.pnuapp.NanoHome">
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+         </activity>
+         <activity
+            android:name="com.example.pnuapp.Nanocall"/>  
+            
+                     <activity
+            android:name="com.example.pnuapp.TeachHome">
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+         </activity>
+         <activity
+            android:name="com.example.pnuapp.Teachcall"/>  
+            
+                     <activity
+            android:name="com.example.pnuapp.SoscienceHome">
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+         </activity>
+         <activity
+            android:name="com.example.pnuapp.Sosciencecall"/>  
+                     <activity
+            android:name="com.example.pnuapp.LifescienceHome">
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+         </activity>
+         <activity
+            android:name="com.example.pnuapp.Lifesciencecall"/>  
+                     <activity
+            android:name="com.example.pnuapp.EnvironmentHome">
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+         </activity>
+         <activity
+            android:name="com.example.pnuapp.Environmentcall"/>  
+                     <activity
+            android:name="com.example.pnuapp.SportHome">
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+         </activity>
+         <activity
+            android:name="com.example.pnuapp.Sportcall"/>  
+                     <activity
+            android:name="com.example.pnuapp.MedicineHome">
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+         </activity>
+         <activity
+            android:name="com.example.pnuapp.Medicinecall"/>  
+                                 <activity
+            android:name="com.example.pnuapp.ArtHome">
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+         </activity>
+         <activity
+            android:name="com.example.pnuapp.Artcall"/>  
+                                 <activity
+            android:name="com.example.pnuapp.HumanHome">
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+         </activity>
+         <activity
+            android:name="com.example.pnuapp.Humancall"/>  
+                       <activity
+            android:name="com.example.pnuapp.NatureHome">
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+         </activity>
+         <activity
+            android:name="com.example.pnuapp.Naturecall"/> 
+            
+         <activity
+             android:name="com.example.pnuapp.TimeTable" />
+         <activity
+             android:name="com.example.pnuapp.TimeTableAdapter" />         
+         <activity
+             android:name="com.example.pnuapp.SetTimeTable" />
+         
+    </application>
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest>
